@@ -25,6 +25,13 @@ resource "azurerm_role_assignment" "rbac" {
   principal_id         = var.principal_id
 }
 
+
+resource "azurerm_role_assignment" "application_group_rbac" {
+  scope                = azurerm_virtual_desktop_application_group.desktopapp.id
+  role_definition_name = "Desktop Virtualization User"
+  principal_id         = var.principal_id
+}
+
 resource "azurerm_virtual_network" "vnet" {
   name                = "avd-vnet"
   location            = "West Europe"
