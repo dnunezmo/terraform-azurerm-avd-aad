@@ -15,7 +15,7 @@ Code is mainly based on Microsoft's document [Configure Azure Virtual Desktop se
 - [How to join Azure AD automated](https://www.rozemuller.com/how-to-join-azure-ad-automated/)
 - [AAD joined AVD - SessionHost is not joined to a domain](https://learn.microsoft.com/en-us/answers/questions/489676/aad-joined-avd-sessionhost-is-not-joined-to-a-doma)
 - [Azure AD joined and DomainJoinedCheck failed](https://techcommunity.microsoft.com/t5/azure-virtual-desktop/azure-ad-joined-and-domainjoinedcheck-faild/m-p/2565889)
-
+- [Terraform Azure VM extension does not join VM to Azure Active Directory for Azure Virtual Desktop](https://stackoverflow.com/questions/70743129/terraform-azure-vm-extension-does-not-join-vm-to-azure-active-directory-for-azur)
 
 Some considerations:
 - MDM must be enabled in advance. See [Automatic MDM enrollment in the Intune admin center](https://learn.microsoft.com/en-us/windows/client-management/azure-ad-and-microsoft-intune-automatic-mdm-enrollment-in-the-new-portal) for reference.
